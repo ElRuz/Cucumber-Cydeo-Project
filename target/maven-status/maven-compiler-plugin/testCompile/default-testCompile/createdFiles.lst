@@ -1,14 +1,11 @@
 com\cydeo\pages\WikiPage.class
 com\cydeo\step_definitions\Login_StepDefinitions.class
 com\cydeo\pages\GoogleSearchPage.class
-com\cydeo\step_definitions\BigTaskStep.class
 com\cydeo\step_definitions\WikipediaStepDefinitions.class
 com\cydeo\pages\ViewAllOrdersPage.class
 com\cydeo\pages\BasePage.class
-com\cydeo\pages\BigTaskPages.class
 com\cydeo\utilities\BrowserUtils$1.class
 com\cydeo\pages\WebTableLoginPage.class
-com\cydeo\pages\BigTaskOrderPage.class
 com\cydeo\step_definitions\GoogleStepDefinitions.class
 com\cydeo\utilities\Driver.class
 com\cydeo\step_definitions\Order_StepDef.class
