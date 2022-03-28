@@ -27,6 +27,10 @@ public class Order_StepDef {
         //Getting the page using the URL from configuration.properties
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 
+        if (!(Driver.getDriver().getTitle().equals("Cydeo Web Table App"))){
+            basePage.logout.click();
+        }
+
         //Calling our login method to log in to web table app
         webTableLoginPage.login();
 
